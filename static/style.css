@@ -1,0 +1,63 @@
+.toolbar {
+    background-color: #f6bea7;
+    width: 20%;
+    height: 100%;
+    float: left;
+    box-shadow: 0.3em 0.4em 3px rgba(122, 122, 122, 0.5);
+    margin-right: 10px;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+}
+
+.main {
+    float: right;
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.body {
+    text-align: left;
+    margin-top: 30px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    height: 1500px;
+    background-color: #f9ebba;
+}
+
+#navbar {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+}
+
+#navbar li {
+    border-bottom: 1px solid #666;
+}
+
+#navbar a {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+}
